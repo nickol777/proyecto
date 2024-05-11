@@ -1,0 +1,127 @@
+.navbar {
+    display: flex; /* Activa Flexbox */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: flex-start; /* Alinea los elementos al inicio de la barra de navegación */
+    gap: 10px; /* Añade un espacio entre los elementos */
+}
+
+.navbar details {
+    display: flex; /* Asegura que el summary se alinee correctamente con los otros elementos */
+    flex-direction: row-reverse;
+}
+
+.navbar ul {
+    list-style-type: none; /* Elimina los estilos predeterminados de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+.navbar a, .navbar details summary {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: rgb(243, 243, 243); /* Establece el color del texto */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+    background-color: #be8686;
+    padding: 15px;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.navbar a button, .navbar details summary {
+    background: none; /* Elimina el fondo predeterminado */
+    border: none; /* Elimina el borde predeterminado */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+    font-size: inherit; /* Hereda el tamaño de fuente del padre */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #000000; /* Color de fondo más claro */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 80px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.3); /* Sombra más pronunciada */
+}
+
+/*estilos para imagenes*/
+img {
+    width: 30%;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000000; /* Color de fondo más oscuro */
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ajustes de margen y padding */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+h3 {
+    color: #ff4646;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Color de fondo más claro */
+    color: #ffffff; /* Color de texto más oscuro */
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #ff0000; /* Color de los títulos más oscuro */
+    background-color: #000000;
+    padding: 15px;
+}
+
+p{
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   background-image: url(./imag/I\ love\ music\ 🎶.jpeg);
+   
+}
